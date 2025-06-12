@@ -41,19 +41,18 @@ class MedicalNewsRepoImpl extends MedicalNewsRepo {
   Future<Either<Failure, List<ArticleEntity>>> getLatestMedicalNews() async {
     try {
       final scores = await loadSortedScores();
-
-      if (scores.isEmpty) return right([]);
-      log('Disease sent to API: ${scores.first.key}');
-
-
       final data;
+      if (scores.isEmpty) {  data = await _medicalNewsApiService.get("news");}
+
+      else{
+
 
 
          data = await _medicalNewsApiService.get(scores.first.key);
         log('API response: ${data.toString()}');
 
 
-
+}
 
       final rawList = data['articles'] as List<dynamic>? ?? [];
 
