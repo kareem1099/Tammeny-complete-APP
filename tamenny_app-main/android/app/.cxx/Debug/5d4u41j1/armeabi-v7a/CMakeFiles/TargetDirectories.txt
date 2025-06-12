@@ -1,0 +1,2 @@
+C:/tamenny_app/android/app/.cxx/Debug/5d4u41j1/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/tamenny_app/android/app/.cxx/Debug/5d4u41j1/armeabi-v7a/CMakeFiles/rebuild_cache.dir
