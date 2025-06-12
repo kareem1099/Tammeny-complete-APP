@@ -1,0 +1,5 @@
+1 - add loading indicator when user change user's data
+2 - change color of message and place for enter message in light mode in chatbot 
+3 - change map icon or scale it  
+4 - change styles of show modal bottom sheet when user click change language in light mode
+5 - change medical news api 

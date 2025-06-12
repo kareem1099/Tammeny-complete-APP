@@ -1,0 +1,1 @@
+C:\tamenny_app\build\app\intermediates\cxx\RelWithDebInfo\605c1v70\obj\x86_64
