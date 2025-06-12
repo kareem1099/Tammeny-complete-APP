@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 
 class AIDiagnosisService {
   final Dio dio;
-  final String baseUrl = 'https://4f68-197-38-123-89.ngrok-free.app';
+  final String baseUrl = 'https://a937-197-38-135-169.ngrok-free.app';
   AIDiagnosisService(this.dio);
 
   Future<Map<String, dynamic>> Diagnosis({
